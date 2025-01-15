@@ -1,0 +1,30 @@
+ body {
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    /* overflow: hidden; */
+ }
+ .board {
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 60vh;
+} 
+.board-row {
+    width: 100%;
+    display: flex;
+}
+.cell {
+    /* max-height: 100%; */
+    min-width: 1rem;
+    min-height: 1rem;
+   
+    flex: 1 1 auto;
+
+}
+.cell:hover {
+    background-color: black;
+    
+}
