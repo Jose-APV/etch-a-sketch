@@ -2,29 +2,34 @@
     height: 100vh;
     margin: 0;
     width: 100%;
+    background-color: purple;
     /* overflow: hidden; */
  }
+ .center {
+    display: flex;
+    justify-content: center;
+ }
  .board {
+    background-color: white;
     border-style: solid;
     border-color: black;
     display: flex;
     flex-direction: column;
-    height: 60vh;
-    width: 60vh;
+    height: 80vh;
+    width: 80vh;
 } 
 .board-row {
     width: 100%;
     display: flex;
+    flex: 1 1 0;
+    
 }
-.cell {
-    /* max-height: 100%; */
-    min-width: 1rem;
-    min-height: 1rem;
-   
+.cell { 
     flex: 1 1 auto;
 
 }
 .cell:hover {
     background-color: black;
+    color:black;
     
 }
