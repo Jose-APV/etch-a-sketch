@@ -33,3 +33,23 @@
     color:black;
     
 }
+
+#create {
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+.menu {
+    border: solid;
+    border-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pixel-size {
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: none;
+}
