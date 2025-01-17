@@ -34,13 +34,7 @@
     
 }
 
-#create {
-    background-color: blue;
-    color: white;
-    border-style: none;
-    border-radius: 8px;
-    padding: 8px 16px;
-}
+
 .menu {
     border: solid;
     border-color: gray;
@@ -52,4 +46,14 @@
     border-radius: 8px;
     padding: 8px 16px;
     border: none;
+}
+button {
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+button:hover{
+    background-color: darkblue;
 }
